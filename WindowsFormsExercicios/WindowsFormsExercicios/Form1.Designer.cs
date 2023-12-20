@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsExercicios
 {
-    partial class Form1
+    partial class FormHome
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,13 +28,227 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.painelMenu = new System.Windows.Forms.Panel();
+            this.btnEX6 = new System.Windows.Forms.Button();
+            this.btnEX7 = new System.Windows.Forms.Button();
+            this.btnDesafio = new System.Windows.Forms.Button();
+            this.btnEX5 = new System.Windows.Forms.Button();
+            this.btnEX2 = new System.Windows.Forms.Button();
+            this.btnEX3 = new System.Windows.Forms.Button();
+            this.btnEX4 = new System.Windows.Forms.Button();
+            this.btnEX1 = new System.Windows.Forms.Button();
+            this.painelCabecalho = new System.Windows.Forms.Panel();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.painelConteudo = new System.Windows.Forms.Panel();
+            this.painelMenu.SuspendLayout();
+            this.painelCabecalho.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // painelMenu
+            // 
+            this.painelMenu.BackColor = System.Drawing.Color.DimGray;
+            this.painelMenu.Controls.Add(this.btnEX6);
+            this.painelMenu.Controls.Add(this.btnEX7);
+            this.painelMenu.Controls.Add(this.btnDesafio);
+            this.painelMenu.Controls.Add(this.btnEX5);
+            this.painelMenu.Controls.Add(this.btnEX2);
+            this.painelMenu.Controls.Add(this.btnEX3);
+            this.painelMenu.Controls.Add(this.btnEX4);
+            this.painelMenu.Controls.Add(this.btnEX1);
+            this.painelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.painelMenu.Location = new System.Drawing.Point(0, 30);
+            this.painelMenu.Name = "painelMenu";
+            this.painelMenu.Size = new System.Drawing.Size(200, 420);
+            this.painelMenu.TabIndex = 0;
+            // 
+            // btnEX6
+            // 
+            this.btnEX6.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX6.FlatAppearance.BorderSize = 0;
+            this.btnEX6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX6.ForeColor = System.Drawing.Color.White;
+            this.btnEX6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX6.Location = new System.Drawing.Point(0, 240);
+            this.btnEX6.Name = "btnEX6";
+            this.btnEX6.Size = new System.Drawing.Size(200, 30);
+            this.btnEX6.TabIndex = 7;
+            this.btnEX6.Text = "EX1 - Bloco de notas";
+            this.btnEX6.UseVisualStyleBackColor = false;
+            // 
+            // btnEX7
+            // 
+            this.btnEX7.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX7.FlatAppearance.BorderSize = 0;
+            this.btnEX7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX7.ForeColor = System.Drawing.Color.White;
+            this.btnEX7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX7.Location = new System.Drawing.Point(0, 275);
+            this.btnEX7.Name = "btnEX7";
+            this.btnEX7.Size = new System.Drawing.Size(200, 30);
+            this.btnEX7.TabIndex = 6;
+            this.btnEX7.Text = "EX1 - Bloco de notas";
+            this.btnEX7.UseVisualStyleBackColor = false;
+            // 
+            // btnDesafio
+            // 
+            this.btnDesafio.BackColor = System.Drawing.Color.DimGray;
+            this.btnDesafio.FlatAppearance.BorderSize = 0;
+            this.btnDesafio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDesafio.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesafio.ForeColor = System.Drawing.Color.White;
+            this.btnDesafio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDesafio.Location = new System.Drawing.Point(0, 310);
+            this.btnDesafio.Name = "btnDesafio";
+            this.btnDesafio.Size = new System.Drawing.Size(200, 30);
+            this.btnDesafio.TabIndex = 5;
+            this.btnDesafio.Text = "EX1 - Bloco de notas";
+            this.btnDesafio.UseVisualStyleBackColor = false;
+            // 
+            // btnEX5
+            // 
+            this.btnEX5.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX5.FlatAppearance.BorderSize = 0;
+            this.btnEX5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX5.ForeColor = System.Drawing.Color.White;
+            this.btnEX5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX5.Location = new System.Drawing.Point(0, 205);
+            this.btnEX5.Name = "btnEX5";
+            this.btnEX5.Size = new System.Drawing.Size(200, 30);
+            this.btnEX5.TabIndex = 4;
+            this.btnEX5.Text = "EX1 - Bloco de notas";
+            this.btnEX5.UseVisualStyleBackColor = false;
+            // 
+            // btnEX2
+            // 
+            this.btnEX2.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX2.FlatAppearance.BorderSize = 0;
+            this.btnEX2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX2.ForeColor = System.Drawing.Color.White;
+            this.btnEX2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX2.Location = new System.Drawing.Point(0, 100);
+            this.btnEX2.Name = "btnEX2";
+            this.btnEX2.Size = new System.Drawing.Size(200, 30);
+            this.btnEX2.TabIndex = 3;
+            this.btnEX2.Text = "EX1 - Bloco de notas";
+            this.btnEX2.UseVisualStyleBackColor = false;
+            this.btnEX2.Click += new System.EventHandler(this.btnEX2_Click);
+            // 
+            // btnEX3
+            // 
+            this.btnEX3.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX3.FlatAppearance.BorderSize = 0;
+            this.btnEX3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX3.ForeColor = System.Drawing.Color.White;
+            this.btnEX3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX3.Location = new System.Drawing.Point(0, 135);
+            this.btnEX3.Name = "btnEX3";
+            this.btnEX3.Size = new System.Drawing.Size(200, 30);
+            this.btnEX3.TabIndex = 2;
+            this.btnEX3.Text = "EX1 - Bloco de notas";
+            this.btnEX3.UseVisualStyleBackColor = false;
+            // 
+            // btnEX4
+            // 
+            this.btnEX4.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX4.FlatAppearance.BorderSize = 0;
+            this.btnEX4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX4.ForeColor = System.Drawing.Color.White;
+            this.btnEX4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX4.Location = new System.Drawing.Point(0, 170);
+            this.btnEX4.Name = "btnEX4";
+            this.btnEX4.Size = new System.Drawing.Size(200, 30);
+            this.btnEX4.TabIndex = 1;
+            this.btnEX4.Text = "EX1 - Bloco de notas";
+            this.btnEX4.UseVisualStyleBackColor = false;
+            // 
+            // btnEX1
+            // 
+            this.btnEX1.BackColor = System.Drawing.Color.DimGray;
+            this.btnEX1.FlatAppearance.BorderSize = 0;
+            this.btnEX1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX1.ForeColor = System.Drawing.Color.White;
+            this.btnEX1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX1.Location = new System.Drawing.Point(0, 65);
+            this.btnEX1.Name = "btnEX1";
+            this.btnEX1.Size = new System.Drawing.Size(200, 30);
+            this.btnEX1.TabIndex = 0;
+            this.btnEX1.Text = "EX1 - Bloco de notas";
+            this.btnEX1.UseVisualStyleBackColor = false;
+            this.btnEX1.Click += new System.EventHandler(this.btnEX1_Click);
+            // 
+            // painelCabecalho
+            // 
+            this.painelCabecalho.BackColor = System.Drawing.Color.Gray;
+            this.painelCabecalho.Controls.Add(this.btnSair);
+            this.painelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
+            this.painelCabecalho.Location = new System.Drawing.Point(0, 0);
+            this.painelCabecalho.Name = "painelCabecalho";
+            this.painelCabecalho.Size = new System.Drawing.Size(800, 30);
+            this.painelCabecalho.TabIndex = 1;
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.Gray;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSair.Location = new System.Drawing.Point(770, 0);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(30, 30);
+            this.btnSair.TabIndex = 8;
+            this.btnSair.Text = "X";
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // painelConteudo
+            // 
+            this.painelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.painelConteudo.Location = new System.Drawing.Point(200, 30);
+            this.painelConteudo.Name = "painelConteudo";
+            this.painelConteudo.Size = new System.Drawing.Size(600, 420);
+            this.painelConteudo.TabIndex = 2;
+            // 
+            // FormHome
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.painelConteudo);
+            this.Controls.Add(this.painelMenu);
+            this.Controls.Add(this.painelCabecalho);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormHome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "formHome";
+            this.painelMenu.ResumeLayout(false);
+            this.painelCabecalho.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel painelMenu;
+        private System.Windows.Forms.Panel painelCabecalho;
+        private System.Windows.Forms.Panel painelConteudo;
+        private System.Windows.Forms.Button btnEX1;
+        private System.Windows.Forms.Button btnEX6;
+        private System.Windows.Forms.Button btnEX7;
+        private System.Windows.Forms.Button btnDesafio;
+        private System.Windows.Forms.Button btnEX5;
+        private System.Windows.Forms.Button btnEX2;
+        private System.Windows.Forms.Button btnEX3;
+        private System.Windows.Forms.Button btnEX4;
+        private System.Windows.Forms.Button btnSair;
     }
 }
 
