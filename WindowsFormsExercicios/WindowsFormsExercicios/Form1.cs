@@ -32,7 +32,11 @@ namespace WindowsFormsExercicios
 
         private void btnEX1_Click(object sender, EventArgs e)
         {
+            
             loadForm(new formEX1());
+
+            lblFormNome.Text = "Bloco de Notas";
+
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -43,6 +47,8 @@ namespace WindowsFormsExercicios
         private void btnEX2_Click(object sender, EventArgs e)
         {
             loadForm(new FormEX2());
+
+            lblFormNome.Text = "Previsão do tempo";
         }
     }
 }
