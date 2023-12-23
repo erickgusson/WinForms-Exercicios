@@ -38,9 +38,9 @@
             this.btnEX4 = new System.Windows.Forms.Button();
             this.btnEX1 = new System.Windows.Forms.Button();
             this.painelCabecalho = new System.Windows.Forms.Panel();
+            this.lblFormNome = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.painelConteudo = new System.Windows.Forms.Panel();
-            this.lblFormNome = new System.Windows.Forms.Label();
             this.painelMenu.SuspendLayout();
             this.painelCabecalho.SuspendLayout();
             this.SuspendLayout();
@@ -153,6 +153,7 @@
             this.btnEX3.TabIndex = 2;
             this.btnEX3.Text = "EX3 - Agenda";
             this.btnEX3.UseVisualStyleBackColor = false;
+            this.btnEX3.Click += new System.EventHandler(this.btnEX3_Click);
             // 
             // btnEX4
             // 
@@ -168,6 +169,7 @@
             this.btnEX4.TabIndex = 1;
             this.btnEX4.Text = "EX4 - Relógio Mundial";
             this.btnEX4.UseVisualStyleBackColor = false;
+            this.btnEX4.Click += new System.EventHandler(this.btnEX4_Click);
             // 
             // btnEX1
             // 
@@ -196,6 +198,17 @@
             this.painelCabecalho.Size = new System.Drawing.Size(800, 30);
             this.painelCabecalho.TabIndex = 1;
             // 
+            // lblFormNome
+            // 
+            this.lblFormNome.AutoSize = true;
+            this.lblFormNome.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFormNome.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblFormNome.Location = new System.Drawing.Point(12, 6);
+            this.lblFormNome.Name = "lblFormNome";
+            this.lblFormNome.Size = new System.Drawing.Size(45, 17);
+            this.lblFormNome.TabIndex = 9;
+            this.lblFormNome.Text = "Home";
+            // 
             // btnSair
             // 
             this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(129)))), ((int)(((byte)(198)))));
@@ -220,17 +233,6 @@
             this.painelConteudo.Name = "painelConteudo";
             this.painelConteudo.Size = new System.Drawing.Size(605, 420);
             this.painelConteudo.TabIndex = 2;
-            // 
-            // lblFormNome
-            // 
-            this.lblFormNome.AutoSize = true;
-            this.lblFormNome.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFormNome.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblFormNome.Location = new System.Drawing.Point(12, 6);
-            this.lblFormNome.Name = "lblFormNome";
-            this.lblFormNome.Size = new System.Drawing.Size(45, 17);
-            this.lblFormNome.TabIndex = 9;
-            this.lblFormNome.Text = "Home";
             // 
             // FormHome
             // 
