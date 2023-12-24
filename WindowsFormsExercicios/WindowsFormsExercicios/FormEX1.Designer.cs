@@ -44,7 +44,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 30);
+            this.label1.Location = new System.Drawing.Point(10, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 17);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // txbNomeArquivo
             // 
             this.txbNomeArquivo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNomeArquivo.Location = new System.Drawing.Point(10, 47);
+            this.txbNomeArquivo.Location = new System.Drawing.Point(10, 45);
             this.txbNomeArquivo.Name = "txbNomeArquivo";
             this.txbNomeArquivo.Size = new System.Drawing.Size(200, 25);
             this.txbNomeArquivo.TabIndex = 1;
@@ -61,7 +61,7 @@
             // txbConteudo
             // 
             this.txbConteudo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbConteudo.Location = new System.Drawing.Point(10, 96);
+            this.txbConteudo.Location = new System.Drawing.Point(10, 99);
             this.txbConteudo.Name = "txbConteudo";
             this.txbConteudo.Size = new System.Drawing.Size(200, 25);
             this.txbConteudo.TabIndex = 3;
@@ -70,7 +70,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 79);
+            this.label2.Location = new System.Drawing.Point(10, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 17);
             this.label2.TabIndex = 2;
@@ -79,7 +79,7 @@
             // btnSalvarNota
             // 
             this.btnSalvarNota.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarNota.Location = new System.Drawing.Point(10, 127);
+            this.btnSalvarNota.Location = new System.Drawing.Point(10, 130);
             this.btnSalvarNota.Name = "btnSalvarNota";
             this.btnSalvarNota.Size = new System.Drawing.Size(92, 23);
             this.btnSalvarNota.TabIndex = 4;
@@ -101,7 +101,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(245, 32);
+            this.label3.Location = new System.Drawing.Point(245, 28);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 17);
             this.label3.TabIndex = 6;
@@ -109,27 +109,29 @@
             // 
             // cbxArquivos
             // 
+            this.cbxArquivos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxArquivos.FormattingEnabled = true;
             this.cbxArquivos.Location = new System.Drawing.Point(245, 47);
             this.cbxArquivos.Name = "cbxArquivos";
-            this.cbxArquivos.Size = new System.Drawing.Size(121, 21);
+            this.cbxArquivos.Size = new System.Drawing.Size(121, 25);
             this.cbxArquivos.TabIndex = 7;
             this.cbxArquivos.SelectedIndexChanged += new System.EventHandler(this.cbxArquivos_SelectedIndexChanged);
             // 
             // lblConteudoNotas
             // 
             this.lblConteudoNotas.AutoSize = true;
+            this.lblConteudoNotas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblConteudoNotas.Location = new System.Drawing.Point(245, 79);
             this.lblConteudoNotas.MaximumSize = new System.Drawing.Size(200, 0);
             this.lblConteudoNotas.Name = "lblConteudoNotas";
-            this.lblConteudoNotas.Size = new System.Drawing.Size(0, 13);
+            this.lblConteudoNotas.Size = new System.Drawing.Size(0, 17);
             this.lblConteudoNotas.TabIndex = 8;
             // 
             // btnRecarregar
             // 
             this.btnRecarregar.FlatAppearance.BorderSize = 0;
             this.btnRecarregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRecarregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecarregar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRecarregar.Location = new System.Drawing.Point(372, 44);
             this.btnRecarregar.Name = "btnRecarregar";
             this.btnRecarregar.Size = new System.Drawing.Size(30, 28);
