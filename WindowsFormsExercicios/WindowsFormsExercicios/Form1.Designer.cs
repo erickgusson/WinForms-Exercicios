@@ -71,7 +71,7 @@
             this.btnEX6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX6.Location = new System.Drawing.Point(0, 240);
+            this.btnEX6.Location = new System.Drawing.Point(0, 180);
             this.btnEX6.Name = "btnEX6";
             this.btnEX6.Size = new System.Drawing.Size(200, 30);
             this.btnEX6.TabIndex = 7;
@@ -86,7 +86,7 @@
             this.btnEX7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX7.Location = new System.Drawing.Point(0, 275);
+            this.btnEX7.Location = new System.Drawing.Point(0, 215);
             this.btnEX7.Name = "btnEX7";
             this.btnEX7.Size = new System.Drawing.Size(200, 30);
             this.btnEX7.TabIndex = 6;
@@ -101,7 +101,7 @@
             this.btnDesafio.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesafio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnDesafio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDesafio.Location = new System.Drawing.Point(0, 310);
+            this.btnDesafio.Location = new System.Drawing.Point(0, 250);
             this.btnDesafio.Name = "btnDesafio";
             this.btnDesafio.Size = new System.Drawing.Size(200, 30);
             this.btnDesafio.TabIndex = 5;
@@ -116,7 +116,7 @@
             this.btnEX5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX5.Location = new System.Drawing.Point(0, 205);
+            this.btnEX5.Location = new System.Drawing.Point(0, 145);
             this.btnEX5.Name = "btnEX5";
             this.btnEX5.Size = new System.Drawing.Size(200, 30);
             this.btnEX5.TabIndex = 4;
@@ -131,7 +131,7 @@
             this.btnEX2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX2.Location = new System.Drawing.Point(0, 100);
+            this.btnEX2.Location = new System.Drawing.Point(0, 40);
             this.btnEX2.Name = "btnEX2";
             this.btnEX2.Size = new System.Drawing.Size(200, 30);
             this.btnEX2.TabIndex = 3;
@@ -147,7 +147,7 @@
             this.btnEX3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX3.Location = new System.Drawing.Point(0, 135);
+            this.btnEX3.Location = new System.Drawing.Point(0, 75);
             this.btnEX3.Name = "btnEX3";
             this.btnEX3.Size = new System.Drawing.Size(200, 30);
             this.btnEX3.TabIndex = 2;
@@ -163,7 +163,7 @@
             this.btnEX4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX4.Location = new System.Drawing.Point(0, 170);
+            this.btnEX4.Location = new System.Drawing.Point(0, 110);
             this.btnEX4.Name = "btnEX4";
             this.btnEX4.Size = new System.Drawing.Size(200, 30);
             this.btnEX4.TabIndex = 1;
@@ -179,7 +179,7 @@
             this.btnEX1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX1.Location = new System.Drawing.Point(0, 65);
+            this.btnEX1.Location = new System.Drawing.Point(0, 5);
             this.btnEX1.Name = "btnEX1";
             this.btnEX1.Size = new System.Drawing.Size(200, 30);
             this.btnEX1.TabIndex = 0;
