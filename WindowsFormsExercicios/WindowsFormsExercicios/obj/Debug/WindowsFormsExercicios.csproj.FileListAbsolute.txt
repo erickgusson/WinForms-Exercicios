@@ -12,3 +12,6 @@ C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormEX2.resources
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormEX3.resources
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormEX4.resources
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\Newtonsoft.Json.dll
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\Newtonsoft.Json.xml
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.csproj.CopyComplete
