@@ -11,36 +11,36 @@ namespace WindowsFormsExercicios
     internal class API_EX2_1
     {
 
-        string chaveAPI = "d0c4d691e3f1fa2da4267474044805d3";
+        //string chaveAPI = "d0c4d691e3f1fa2da4267474044805d3";
 
-        public async Task<API2_EX2_2> intregacao(string cidadeNome)
-        {
+        //public async Task<API2_EX2_2> intregacao(string cidadeNome)
+        //{
 
-            string cidadeID = "";
+        //    string cidadeID = "";
 
-            if(cidadeNome == "Americana")
-            {
-                cidadeID = "3472343";
-            }
+        //    if(cidadeNome == "Americana")
+        //    {
+        //        cidadeID = "3472343";
+        //    }
 
-            if (cidadeNome == "Campinas")
-            {
-                cidadeID = "3467865";
-            }
+        //    if (cidadeNome == "Campinas")
+        //    {
+        //        cidadeID = "3467865";
+        //    }
 
-            if (cidadeNome == "Santa Bárbara d'Oeste")
-            {
-                cidadeID = "3450404";
-            }
+        //    if (cidadeNome == "Santa Bárbara d'Oeste")
+        //    {
+        //        cidadeID = "3450404";
+        //    }
 
 
-            HttpClient client = new HttpClient();
-            var respostas = await client.GetAsync($"https://api.openweathermap.org/data/2.5/weather?id={cidadeID}&lang=pt_br&units=metric&appid={chaveAPI}");
-            var jsonString = await respostas.Content.ReadAsStringAsync();
+        //    HttpClient client = new HttpClient();
+        //    var respostas = await client.GetAsync($"https://api.openweathermap.org/data/2.5/weather?id={cidadeID}&lang=pt_br&units=metric&appid={chaveAPI}");
+        //    var jsonString = await respostas.Content.ReadAsStringAsync();
             
-            var jsonObjeto = JsonConvert.DeserializeObject<API2_EX2_2>(jsonString);
+        //    var jsonObjeto = JsonConvert.DeserializeObject<API2_EX2_2>(jsonString);
 
-            return jsonObjeto;
-        }
+        //    return jsonObjeto;
+        //}
     }
 }
