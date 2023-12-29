@@ -18,6 +18,8 @@ namespace WindowsFormsExercicios
             InitializeComponent();
         }
 
+        int timer = 1000;
+
         public string PastaDosArquivos
         {
 
@@ -35,6 +37,9 @@ namespace WindowsFormsExercicios
 
         private void formEX1_Load(object sender, EventArgs e)
         {
+
+            timer1.Interval = timer;
+            timer1.Enabled = true;
 
             caminhoPasta = PastaDosArquivos;
 
@@ -104,6 +109,22 @@ namespace WindowsFormsExercicios
                 lblConteudoNotas.Text = sr.ReadToEnd();
 
             }
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+
+            cbxArquivos.Items.Clear();
+
+            DirectoryInfo dir = new DirectoryInfo(caminhoPasta);
+            FileInfo[] arquivos = dir.GetFiles("*.*");
+            foreach (FileInfo fi in arquivos)
+            {
+                cbxArquivos.Items.Add(fi.Name);
+            }
+
 
         }
     }

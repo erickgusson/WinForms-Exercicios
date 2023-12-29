@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.txbNomeArquivo = new System.Windows.Forms.TextBox();
             this.txbConteudo = new System.Windows.Forms.TextBox();
@@ -38,6 +39,7 @@
             this.cbxArquivos = new System.Windows.Forms.ComboBox();
             this.lblConteudoNotas = new System.Windows.Forms.Label();
             this.btnRecarregar = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -55,15 +57,17 @@
             this.txbNomeArquivo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbNomeArquivo.Location = new System.Drawing.Point(10, 45);
             this.txbNomeArquivo.Name = "txbNomeArquivo";
-            this.txbNomeArquivo.Size = new System.Drawing.Size(200, 25);
+            this.txbNomeArquivo.Size = new System.Drawing.Size(275, 25);
             this.txbNomeArquivo.TabIndex = 1;
             // 
             // txbConteudo
             // 
             this.txbConteudo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbConteudo.Location = new System.Drawing.Point(10, 99);
+            this.txbConteudo.Multiline = true;
             this.txbConteudo.Name = "txbConteudo";
-            this.txbConteudo.Size = new System.Drawing.Size(200, 25);
+            this.txbConteudo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txbConteudo.Size = new System.Drawing.Size(275, 188);
             this.txbConteudo.TabIndex = 3;
             // 
             // label2
@@ -79,9 +83,9 @@
             // btnSalvarNota
             // 
             this.btnSalvarNota.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarNota.Location = new System.Drawing.Point(10, 130);
+            this.btnSalvarNota.Location = new System.Drawing.Point(10, 293);
             this.btnSalvarNota.Name = "btnSalvarNota";
-            this.btnSalvarNota.Size = new System.Drawing.Size(92, 23);
+            this.btnSalvarNota.Size = new System.Drawing.Size(92, 30);
             this.btnSalvarNota.TabIndex = 4;
             this.btnSalvarNota.Text = "Salvar nota";
             this.btnSalvarNota.UseVisualStyleBackColor = true;
@@ -101,7 +105,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(245, 28);
+            this.label3.Location = new System.Drawing.Point(305, 26);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 17);
             this.label3.TabIndex = 6;
@@ -111,7 +115,7 @@
             // 
             this.cbxArquivos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxArquivos.FormattingEnabled = true;
-            this.cbxArquivos.Location = new System.Drawing.Point(245, 47);
+            this.cbxArquivos.Location = new System.Drawing.Point(305, 45);
             this.cbxArquivos.Name = "cbxArquivos";
             this.cbxArquivos.Size = new System.Drawing.Size(121, 25);
             this.cbxArquivos.TabIndex = 7;
@@ -121,8 +125,8 @@
             // 
             this.lblConteudoNotas.AutoSize = true;
             this.lblConteudoNotas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConteudoNotas.Location = new System.Drawing.Point(245, 79);
-            this.lblConteudoNotas.MaximumSize = new System.Drawing.Size(200, 0);
+            this.lblConteudoNotas.Location = new System.Drawing.Point(305, 80);
+            this.lblConteudoNotas.MaximumSize = new System.Drawing.Size(295, 0);
             this.lblConteudoNotas.Name = "lblConteudoNotas";
             this.lblConteudoNotas.Size = new System.Drawing.Size(0, 17);
             this.lblConteudoNotas.TabIndex = 8;
@@ -132,7 +136,7 @@
             this.btnRecarregar.FlatAppearance.BorderSize = 0;
             this.btnRecarregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRecarregar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecarregar.Location = new System.Drawing.Point(372, 44);
+            this.btnRecarregar.Location = new System.Drawing.Point(432, 42);
             this.btnRecarregar.Name = "btnRecarregar";
             this.btnRecarregar.Size = new System.Drawing.Size(30, 28);
             this.btnRecarregar.TabIndex = 9;
@@ -140,12 +144,16 @@
             this.btnRecarregar.UseVisualStyleBackColor = true;
             this.btnRecarregar.Click += new System.EventHandler(this.btnRecarregar_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // formEX1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(605, 420);
             this.Controls.Add(this.btnRecarregar);
             this.Controls.Add(this.lblConteudoNotas);
             this.Controls.Add(this.cbxArquivos);
@@ -177,5 +185,6 @@
         private System.Windows.Forms.ComboBox cbxArquivos;
         private System.Windows.Forms.Label lblConteudoNotas;
         private System.Windows.Forms.Button btnRecarregar;
+        private System.Windows.Forms.Timer timer1;
     }
 }
