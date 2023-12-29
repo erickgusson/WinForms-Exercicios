@@ -24,38 +24,27 @@ namespace WindowsFormsExercicios
 
         string chaveAPI = "d0c4d691e3f1fa2da4267474044805d3";
 
-        private async void cbxCidades_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbxCidades_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
-            //string cidade = cbxCidades.SelectedItem.ToString();
-
-            //API_EX2_1 apiClima = new API_EX2_1();
-
-            //API2_EX2_2 climaInfo = await apiClima.intregacao(cidade);
-
-            //cidadeNome.Text = cidadeNome.Text = climaInfo.name;
-            //temperatura.Text = "" + climaInfo.temp + "º";
-            //sensacao.Text = "" + climaInfo.feels_like + "º";
-            //minima.Text = "" + climaInfo.temp_min + "º";
-            //maxima.Text = "" + climaInfo.temp_max + "º";
-
             getWeather();
+
         }
 
         void getWeather()
         {
-            
 
 
-            using (WebClient web = new WebClient()) 
+            using (WebClient web = new WebClient())
             {
 
-                string url = string.Format("https://api.openweathermap.org/data/2.5/weather?q={0}&lang=pt_br&units=metric&appid={1}", cidadeSelecionada, chaveAPI);
+                string url = string.Format("https://api.openweathermap.org/data/2.5/weather?q={0}&lang=pt_br&units=metric&appid={1}", cbxCidades.Text, chaveAPI);
 
                 var json = web.DownloadString(url);
 
                 ClimaInfo.root info = JsonConvert.DeserializeObject<ClimaInfo.root>(json);
 
+                cidadeNome.Text = info.name;
                 temperatura.Text = info.main.temp.ToString();
                 sensacao.Text = info.main.feels_like.ToString();
                 minima.Text = info.main.temp_min.ToString();
@@ -64,5 +53,6 @@ namespace WindowsFormsExercicios
             }
 
         }
+
     }
 }

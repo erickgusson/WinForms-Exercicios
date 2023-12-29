@@ -22,10 +22,10 @@ namespace WindowsFormsExercicios
 
         }
 
-        public string name { get; set;}
 
         public class root
         {
+            public string name { get; set; }
 
             public main main { get; set; }
 

@@ -49,12 +49,12 @@
             this.cbxCidades.Items.AddRange(new object[] {
             "Americana",
             "Campinas",
-            "Santa Barbara d\' Oeste"});
+            "Limeira"});
             this.cbxCidades.Location = new System.Drawing.Point(10, 30);
             this.cbxCidades.Name = "cbxCidades";
             this.cbxCidades.Size = new System.Drawing.Size(135, 25);
             this.cbxCidades.TabIndex = 0;
-            this.cbxCidades.SelectedIndexChanged += new System.EventHandler(this.cbxCidades_SelectedIndexChanged);
+            this.cbxCidades.SelectedIndexChanged += new System.EventHandler(this.cbxCidades_SelectedIndexChanged_1);
             // 
             // label2
             // 
