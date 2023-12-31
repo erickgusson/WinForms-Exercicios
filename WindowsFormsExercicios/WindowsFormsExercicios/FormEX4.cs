@@ -16,5 +16,17 @@ namespace WindowsFormsExercicios
         {
             InitializeComponent();
         }
+
+        private void FormEX4_Load(object sender, EventArgs e)
+        {
+            DateTime horaAtual = DateTime.Now;
+            label1.Text = horaAtual.ToString("HH:mm:ss");
+
+            TimeZoneInfo fuso = TimeZoneInfo.Local;
+            label2.Text = fuso.ToString();
+
+            
+
+        }
     }
 }
