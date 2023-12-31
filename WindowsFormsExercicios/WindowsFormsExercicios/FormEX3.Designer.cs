@@ -226,6 +226,7 @@
             this.txbProcurar.Name = "txbProcurar";
             this.txbProcurar.Size = new System.Drawing.Size(177, 20);
             this.txbProcurar.TabIndex = 18;
+            this.txbProcurar.TextChanged += new System.EventHandler(this.txbProcurar_TextChanged);
             // 
             // label9
             // 

@@ -144,6 +144,34 @@ namespace WindowsFormsExercicios
         private void txbProcurar_TextChanged(object sender, EventArgs e)
         {
 
+            lbxContatos.Items.Clear();
+
+            string texto = LerArquivo(caminhoArquivo);
+
+            Array lista = texto.Split('\n');
+
+            foreach (string pessoa in lista)
+            {
+
+                string[] dados = pessoa.Split('|');
+
+                if (dados[0].ToUpper().Contains(txbProcurar.Text.ToUpper()))
+                {
+
+                    lbxContatos.Items.Add(dados[0]);
+
+                }
+
+                else if (txbProcurar.Text == "")
+                {
+
+                    lbxContatos.Items.Add(dados[0]);
+
+                }
+
+
+            }
+
         }
     }
 }
