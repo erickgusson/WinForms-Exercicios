@@ -16,17 +16,17 @@ namespace WindowsFormsExercicios
         {
             InitializeComponent();
         }
-        
+
         public string PastaDosArquivos
         {
-        
+
             get
             {
                 string pastaDoAplicativo = Application.StartupPath;
                 string pastaDoArquivo = pastaDoAplicativo + "\\arquivos";
                 return pastaDoArquivo;
             }
-        
+
         }
 
 
@@ -47,7 +47,7 @@ namespace WindowsFormsExercicios
 
         private void btnEX1_Click(object sender, EventArgs e)
         {
-            
+
             loadForm(new formEX1());
 
             lblFormNome.Text = "Bloco de Notas";
@@ -67,17 +67,12 @@ namespace WindowsFormsExercicios
 
             lblFormNome.Text = "Agenda";
         }
-        
+
         private void btnEX4_Click(object sender, EventArgs e)
         {
             loadForm(new FormEX4());
 
             lblFormNome.Text = "Relógio mundial";
-        }
-
-        private void btnSair_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnEX5_Click(object sender, EventArgs e)
@@ -87,5 +82,12 @@ namespace WindowsFormsExercicios
             lblFormNome.Text = "Gerenciador de notas";
 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
     }
 }
