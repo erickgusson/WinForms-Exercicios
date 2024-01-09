@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEX4));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,12 +53,12 @@
             this.lblDawson = new System.Windows.Forms.Label();
             this.lblLosAngeles = new System.Windows.Forms.Label();
             this.lblAcra = new System.Windows.Forms.Label();
-            this.lblHavai = new System.Windows.Forms.Label();
             this.lblMagadan = new System.Windows.Forms.Label();
             this.lblSuva = new System.Windows.Forms.Label();
             this.lblPaopao = new System.Windows.Forms.Label();
             this.lblMiller = new System.Windows.Forms.Label();
             this.lblBaker = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -387,21 +388,6 @@
             this.lblAcra.Text = "        Acra";
             this.lblAcra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblHavai
-            // 
-            this.lblHavai.AutoSize = true;
-            this.lblHavai.BackColor = System.Drawing.Color.Transparent;
-            this.lblHavai.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHavai.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblHavai.Image = ((System.Drawing.Image)(resources.GetObject("lblHavai.Image")));
-            this.lblHavai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblHavai.Location = new System.Drawing.Point(49, 166);
-            this.lblHavai.Name = "lblHavai";
-            this.lblHavai.Size = new System.Drawing.Size(46, 12);
-            this.lblHavai.TabIndex = 27;
-            this.lblHavai.Text = "        Havaí";
-            this.lblHavai.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // lblMagadan
             // 
             this.lblMagadan.AutoSize = true;
@@ -477,6 +463,10 @@
             this.lblBaker.Text = "        Baker";
             this.lblBaker.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // FormEX4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -490,7 +480,6 @@
             this.Controls.Add(this.lblPaopao);
             this.Controls.Add(this.lblSuva);
             this.Controls.Add(this.lblMagadan);
-            this.Controls.Add(this.lblHavai);
             this.Controls.Add(this.lblAcra);
             this.Controls.Add(this.lblLosAngeles);
             this.Controls.Add(this.lblDawson);
@@ -549,11 +538,11 @@
         private System.Windows.Forms.Label lblDawson;
         private System.Windows.Forms.Label lblLosAngeles;
         private System.Windows.Forms.Label lblAcra;
-        private System.Windows.Forms.Label lblHavai;
         private System.Windows.Forms.Label lblMagadan;
         private System.Windows.Forms.Label lblSuva;
         private System.Windows.Forms.Label lblPaopao;
         private System.Windows.Forms.Label lblMiller;
         private System.Windows.Forms.Label lblBaker;
+        private System.Windows.Forms.Timer timer1;
     }
 }

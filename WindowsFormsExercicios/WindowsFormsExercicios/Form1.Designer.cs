@@ -122,6 +122,7 @@
             this.btnEX5.TabIndex = 4;
             this.btnEX5.Text = "EX5 - Gerenciador de Notas";
             this.btnEX5.UseVisualStyleBackColor = false;
+            this.btnEX5.Click += new System.EventHandler(this.btnEX5_Click);
             // 
             // btnEX2
             // 

@@ -80,6 +80,12 @@ namespace WindowsFormsExercicios
             Application.Exit();
         }
 
-        
+        private void btnEX5_Click(object sender, EventArgs e)
+        {
+            loadForm(new FormEX5());
+
+            lblFormNome.Text = "Gerenciador de notas";
+
+        }
     }
 }
