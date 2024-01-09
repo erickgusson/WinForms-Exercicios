@@ -15,3 +15,8 @@ C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\Newtonsoft.Json.dll
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\Newtonsoft.Json.xml
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.csproj.CopyComplete
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\NodaTime.dll
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\NodaTime.pdb
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\NodaTime.xml
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
