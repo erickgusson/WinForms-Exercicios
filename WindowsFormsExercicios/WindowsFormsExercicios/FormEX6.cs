@@ -16,5 +16,10 @@ namespace WindowsFormsExercicios
         {
             InitializeComponent();
         }
+
+        private void FormEX6_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
