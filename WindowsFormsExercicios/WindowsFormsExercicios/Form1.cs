@@ -50,7 +50,7 @@ namespace WindowsFormsExercicios
 
             loadForm(new formEX1());
 
-            lblFormNome.Text = "Bloco de Notas";
+            lblFormNome.Text = btnEX1.Text;
 
         }
 
@@ -58,28 +58,28 @@ namespace WindowsFormsExercicios
         {
             loadForm(new FormEX2());
 
-            lblFormNome.Text = "Previsão do tempo";
+            lblFormNome.Text = btnEX2.Text;
         }
 
         private void btnEX3_Click(object sender, EventArgs e)
         {
             loadForm(new FormEX3());
 
-            lblFormNome.Text = "Agenda";
+            lblFormNome.Text = btnEX3.Text;
         }
 
         private void btnEX4_Click(object sender, EventArgs e)
         {
             loadForm(new FormEX4());
 
-            lblFormNome.Text = "Relógio mundial";
+            lblFormNome.Text = btnEX4.Text;
         }
 
         private void btnEX5_Click(object sender, EventArgs e)
         {
             loadForm(new FormEX5());
 
-            lblFormNome.Text = "Gerenciador de notas";
+            lblFormNome.Text = btnEX5.Text;
 
         }
 
@@ -88,6 +88,31 @@ namespace WindowsFormsExercicios
             Application.Exit();
         }
 
+        private void btnEX6_Click(object sender, EventArgs e)
+        {
 
+            loadForm(new FormEX6());
+
+            lblFormNome.Text = btnEX6.Text;
+
+        }
+
+        private void btnEX7_Click(object sender, EventArgs e)
+        {
+
+            loadForm(new FormEX7());
+
+            lblFormNome.Text = btnEX7.Text;
+
+        }
+
+        private void btnDesafio_Click(object sender, EventArgs e)
+        {
+
+            loadForm(new FormDesafio());
+
+            lblFormNome.Text = btnDesafio.Text;
+
+        }
     }
 }

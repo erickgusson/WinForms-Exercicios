@@ -77,6 +77,7 @@
             this.btnEX6.TabIndex = 7;
             this.btnEX6.Text = "EX5 - Gerenciador de Tarefas";
             this.btnEX6.UseVisualStyleBackColor = false;
+            this.btnEX6.Click += new System.EventHandler(this.btnEX6_Click);
             // 
             // btnEX7
             // 
@@ -92,6 +93,7 @@
             this.btnEX7.TabIndex = 6;
             this.btnEX7.Text = "EX7 - Quiz";
             this.btnEX7.UseVisualStyleBackColor = false;
+            this.btnEX7.Click += new System.EventHandler(this.btnEX7_Click);
             // 
             // btnDesafio
             // 
@@ -107,6 +109,7 @@
             this.btnDesafio.TabIndex = 5;
             this.btnDesafio.Text = "Desafio - Gerador de QR";
             this.btnDesafio.UseVisualStyleBackColor = false;
+            this.btnDesafio.Click += new System.EventHandler(this.btnDesafio_Click);
             // 
             // btnEX5
             // 

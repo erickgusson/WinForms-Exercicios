@@ -18,3 +18,6 @@ C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormEX5.resources
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormDesafio.resources
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormEX6.resources
+C:\repos\Erick\WinForms-Exercicios\WindowsFormsExercicios\WindowsFormsExercicios\obj\Debug\WindowsFormsExercicios.FormEX7.resources
