@@ -16,5 +16,19 @@ namespace WindowsFormsExercicios
         {
             InitializeComponent();
         }
+
+        int quantidadeQuestao = 4;
+        int questaoAtual = 0;
+        int acertos = 0;
+
+        private void FormEX7_Load(object sender, EventArgs e)
+        {
+            int erros = quantidadeQuestao - acertos;
+            MessageBox.Show("Tem certeza que deseja começar este desafio?", "Está preparado", MessageBoxButtons.OK, MessageBoxIcon.Question);
+
+            
+            
+
+        }
     }
 }
