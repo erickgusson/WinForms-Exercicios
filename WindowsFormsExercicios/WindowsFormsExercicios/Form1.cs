@@ -17,19 +17,6 @@ namespace WindowsFormsExercicios
             InitializeComponent();
         }
 
-        public string PastaDosArquivos
-        {
-
-            get
-            {
-                string pastaDoAplicativo = Application.StartupPath;
-                string pastaDoArquivo = pastaDoAplicativo + "\\arquivos";
-                return pastaDoArquivo;
-            }
-
-        }
-
-
         public void loadForm(object form)
         {
 
@@ -83,11 +70,6 @@ namespace WindowsFormsExercicios
 
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void btnEX6_Click(object sender, EventArgs e)
         {
 
@@ -114,5 +96,11 @@ namespace WindowsFormsExercicios
             lblFormNome.Text = btnDesafio.Text;
 
         }
+        
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

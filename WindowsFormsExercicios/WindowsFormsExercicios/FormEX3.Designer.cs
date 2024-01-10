@@ -224,7 +224,7 @@
             // 
             this.txbProcurar.Location = new System.Drawing.Point(63, 396);
             this.txbProcurar.Name = "txbProcurar";
-            this.txbProcurar.Size = new System.Drawing.Size(177, 20);
+            this.txbProcurar.Size = new System.Drawing.Size(177, 22);
             this.txbProcurar.TabIndex = 18;
             this.txbProcurar.TextChanged += new System.EventHandler(this.txbProcurar_TextChanged);
             // 
@@ -233,7 +233,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(10, 396);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 13);
+            this.label9.Size = new System.Drawing.Size(50, 13);
             this.label9.TabIndex = 19;
             this.label9.Text = "Procurar";
             // 
@@ -262,6 +262,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbxContatos);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormEX3";
             this.Text = "FormEX3";

@@ -42,6 +42,7 @@
             // 
             // lbxNotas
             // 
+            this.lbxNotas.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxNotas.FormattingEnabled = true;
             this.lbxNotas.Location = new System.Drawing.Point(10, 13);
             this.lbxNotas.Name = "lbxNotas";
@@ -52,6 +53,7 @@
             // 
             // txbNotaConteudo
             // 
+            this.txbNotaConteudo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbNotaConteudo.Location = new System.Drawing.Point(300, 190);
             this.txbNotaConteudo.Multiline = true;
             this.txbNotaConteudo.Name = "txbNotaConteudo";
@@ -61,14 +63,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(305, 180);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 13);
+            this.label1.Size = new System.Drawing.Size(102, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Conteúdo da nota";
             // 
             // btnExcluir
             // 
+            this.btnExcluir.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluir.Location = new System.Drawing.Point(300, 384);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
@@ -79,9 +83,10 @@
             // 
             // btnAtualizar
             // 
+            this.btnAtualizar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizar.Location = new System.Drawing.Point(385, 384);
             this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(84, 23);
+            this.btnAtualizar.Size = new System.Drawing.Size(91, 23);
             this.btnAtualizar.TabIndex = 5;
             this.btnAtualizar.Text = "Atualizar nota";
             this.btnAtualizar.UseVisualStyleBackColor = true;
@@ -89,31 +94,35 @@
             // 
             // txbCriacaoNome
             // 
+            this.txbCriacaoNome.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCriacaoNome.Location = new System.Drawing.Point(300, 24);
             this.txbCriacaoNome.Name = "txbCriacaoNome";
-            this.txbCriacaoNome.Size = new System.Drawing.Size(295, 20);
+            this.txbCriacaoNome.Size = new System.Drawing.Size(295, 22);
             this.txbCriacaoNome.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(305, 13);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Nome";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(305, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.Size = new System.Drawing.Size(59, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Conteúdo";
             // 
             // txbCriacaoConteudo
             // 
+            this.txbCriacaoConteudo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCriacaoConteudo.Location = new System.Drawing.Point(300, 72);
             this.txbCriacaoConteudo.Multiline = true;
             this.txbCriacaoConteudo.Name = "txbCriacaoConteudo";
@@ -122,6 +131,7 @@
             // 
             // btnCriar
             // 
+            this.btnCriar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCriar.Location = new System.Drawing.Point(300, 138);
             this.btnCriar.Name = "btnCriar";
             this.btnCriar.Size = new System.Drawing.Size(75, 23);

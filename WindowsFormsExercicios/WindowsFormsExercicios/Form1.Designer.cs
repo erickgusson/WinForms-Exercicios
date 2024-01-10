@@ -75,7 +75,7 @@
             this.btnEX6.Name = "btnEX6";
             this.btnEX6.Size = new System.Drawing.Size(200, 30);
             this.btnEX6.TabIndex = 7;
-            this.btnEX6.Text = "EX5 - Gerenciador de Tarefas";
+            this.btnEX6.Text = "EX6 - Gerenciador de Tarefas";
             this.btnEX6.UseVisualStyleBackColor = false;
             this.btnEX6.Click += new System.EventHandler(this.btnEX6_Click);
             // 
