@@ -28,62 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
+            this.lblPergunta = new System.Windows.Forms.Label();
+            this.btnOpcao4 = new System.Windows.Forms.Button();
+            this.btnOpcao3 = new System.Windows.Forms.Button();
+            this.btnOpcao2 = new System.Windows.Forms.Button();
+            this.btnOpcao1 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // label1
+            // lblPergunta
             // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(50, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(505, 130);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "label1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPergunta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta.Location = new System.Drawing.Point(50, 28);
+            this.lblPergunta.Name = "lblPergunta";
+            this.lblPergunta.Size = new System.Drawing.Size(505, 130);
+            this.lblPergunta.TabIndex = 14;
+            this.lblPergunta.Text = "pergunta";
+            this.lblPergunta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button3
+            // btnOpcao4
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(310, 293);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(275, 100);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnOpcao4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpcao4.Location = new System.Drawing.Point(310, 293);
+            this.btnOpcao4.Name = "btnOpcao4";
+            this.btnOpcao4.Size = new System.Drawing.Size(275, 100);
+            this.btnOpcao4.TabIndex = 13;
+            this.btnOpcao4.Text = "4";
+            this.btnOpcao4.UseVisualStyleBackColor = true;
+            this.btnOpcao4.Click += new System.EventHandler(this.btnOpcao4_Click);
             // 
-            // button4
+            // btnOpcao3
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(20, 293);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(275, 100);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnOpcao3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpcao3.Location = new System.Drawing.Point(20, 293);
+            this.btnOpcao3.Name = "btnOpcao3";
+            this.btnOpcao3.Size = new System.Drawing.Size(275, 100);
+            this.btnOpcao3.TabIndex = 12;
+            this.btnOpcao3.Text = "3";
+            this.btnOpcao3.UseVisualStyleBackColor = true;
+            this.btnOpcao3.Click += new System.EventHandler(this.btnOpcao3_Click);
             // 
-            // button2
+            // btnOpcao2
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(310, 178);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(275, 100);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnOpcao2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpcao2.Location = new System.Drawing.Point(310, 178);
+            this.btnOpcao2.Name = "btnOpcao2";
+            this.btnOpcao2.Size = new System.Drawing.Size(275, 100);
+            this.btnOpcao2.TabIndex = 11;
+            this.btnOpcao2.Text = "2";
+            this.btnOpcao2.UseVisualStyleBackColor = true;
+            this.btnOpcao2.Click += new System.EventHandler(this.btnOpcao2_Click);
             // 
-            // button1
+            // btnOpcao1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(20, 178);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(275, 100);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnOpcao1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpcao1.Location = new System.Drawing.Point(20, 178);
+            this.btnOpcao1.Name = "btnOpcao1";
+            this.btnOpcao1.Size = new System.Drawing.Size(275, 100);
+            this.btnOpcao1.TabIndex = 10;
+            this.btnOpcao1.Text = "1";
+            this.btnOpcao1.UseVisualStyleBackColor = true;
+            this.btnOpcao1.Click += new System.EventHandler(this.btnOpcao1_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FormEX7
             // 
@@ -91,11 +101,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(605, 420);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblPergunta);
+            this.Controls.Add(this.btnOpcao4);
+            this.Controls.Add(this.btnOpcao3);
+            this.Controls.Add(this.btnOpcao2);
+            this.Controls.Add(this.btnOpcao1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormEX7";
             this.Text = "FormEX7";
@@ -106,10 +116,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblPergunta;
+        private System.Windows.Forms.Button btnOpcao4;
+        private System.Windows.Forms.Button btnOpcao3;
+        private System.Windows.Forms.Button btnOpcao2;
+        private System.Windows.Forms.Button btnOpcao1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
