@@ -16,5 +16,15 @@ namespace WindowsFormsExercicios
         {
             InitializeComponent();
         }
+
+        private void txbTexto_TextChanged(object sender, EventArgs e)
+        {
+
+            QRCoder.QRCodeGenerator geradorQR = new QRCoder.QRCodeGenerator();
+            var texto = geradorQR.CreateQrCode(txbTexto.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
+            var codigo = new QRCoder.QRCode(texto);
+            pbxQR.Image = codigo.GetGraphic(50);
+
+        }
     }
 }
