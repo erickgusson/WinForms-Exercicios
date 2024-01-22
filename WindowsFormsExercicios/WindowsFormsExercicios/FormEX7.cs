@@ -17,7 +17,6 @@ namespace WindowsFormsExercicios
             InitializeComponent();
         }
 
-        int quantidadeQuestao = 4;
         int questaoAtual = 1;
         int acertos = 0;
         int erros = 0;
@@ -99,6 +98,10 @@ namespace WindowsFormsExercicios
                     MessageBox.Show("Pois vai KKKK");
 
                     questaoAtual = 1;
+                    acertos = 0;
+                    erros = 0;
+                    correta = "";
+                    tempo = 0;
 
                     gerarQuestoes();
 
