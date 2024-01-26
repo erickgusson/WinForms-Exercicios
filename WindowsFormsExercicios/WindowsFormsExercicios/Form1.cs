@@ -30,6 +30,8 @@ namespace WindowsFormsExercicios
             this.painelConteudo.Tag = formSelecionado;
             formSelecionado.Show();
 
+            
+
         }
 
         private void btnEX1_Click(object sender, EventArgs e)

@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDesafio));
             this.pbxQR = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txbTexto = new System.Windows.Forms.TextBox();
+            this.btnDownload = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxQR)).BeginInit();
             this.SuspendLayout();
             // 
             // pbxQR
             // 
-            this.pbxQR.Location = new System.Drawing.Point(150, 100);
+            this.pbxQR.Location = new System.Drawing.Point(155, 85);
             this.pbxQR.Name = "pbxQR";
-            this.pbxQR.Size = new System.Drawing.Size(305, 305);
+            this.pbxQR.Size = new System.Drawing.Size(295, 295);
             this.pbxQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxQR.TabIndex = 0;
             this.pbxQR.TabStop = false;
@@ -56,11 +58,24 @@
             // txbTexto
             // 
             this.txbTexto.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTexto.Location = new System.Drawing.Point(10, 56);
+            this.txbTexto.Location = new System.Drawing.Point(10, 55);
             this.txbTexto.Name = "txbTexto";
             this.txbTexto.Size = new System.Drawing.Size(585, 25);
             this.txbTexto.TabIndex = 2;
             this.txbTexto.TextChanged += new System.EventHandler(this.txbTexto_TextChanged);
+            // 
+            // btnDownload
+            // 
+            this.btnDownload.BackColor = System.Drawing.Color.White;
+            this.btnDownload.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnDownload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDownload.Image = ((System.Drawing.Image)(resources.GetObject("btnDownload.Image")));
+            this.btnDownload.Location = new System.Drawing.Point(0, 385);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(605, 35);
+            this.btnDownload.TabIndex = 3;
+            this.btnDownload.UseVisualStyleBackColor = false;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
             // FormDesafio
             // 
@@ -68,6 +83,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(605, 420);
+            this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.txbTexto);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbxQR);
@@ -85,5 +101,6 @@
         private System.Windows.Forms.PictureBox pbxQR;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbTexto;
+        private System.Windows.Forms.Button btnDownload;
     }
 }
