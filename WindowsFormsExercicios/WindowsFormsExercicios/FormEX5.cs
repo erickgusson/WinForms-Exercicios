@@ -53,6 +53,7 @@ namespace WindowsFormsExercicios
         {
 
             listarArquivos();
+            lbxNotas.SelectedIndex = 0;
 
         }
 
@@ -62,7 +63,6 @@ namespace WindowsFormsExercicios
             string arquivo = lbxNotas.SelectedItem.ToString();
             caminhoArquivo = caminhoPasta + arquivo;
 
-
             using (StreamReader sr = new StreamReader(caminhoArquivo))
             {
 
@@ -70,8 +70,9 @@ namespace WindowsFormsExercicios
 
             }
 
+
         }
-        
+
 
         private void btnCriar_Click(object sender, EventArgs e)
         {
@@ -88,7 +89,8 @@ namespace WindowsFormsExercicios
             caminhoArquivo = caminhoPasta + arquivoCriacao;
 
 
-            if (!File.Exists(caminhoArquivo)) {
+            if (!File.Exists(caminhoArquivo))
+            {
 
                 using (StreamWriter sw = File.CreateText(caminhoArquivo))
                 {
@@ -165,6 +167,6 @@ namespace WindowsFormsExercicios
 
         }
 
-       
+
     }
 }

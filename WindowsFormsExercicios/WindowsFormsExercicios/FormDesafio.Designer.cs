@@ -41,6 +41,7 @@
             // 
             // pbxQR
             // 
+            this.pbxQR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbxQR.Location = new System.Drawing.Point(155, 85);
             this.pbxQR.Name = "pbxQR";
             this.pbxQR.Size = new System.Drawing.Size(295, 295);
