@@ -18,7 +18,7 @@ namespace WindowsFormsExercicios
             InitializeComponent();
         }
 
-        int timer = 1000;
+        int timer = 2000;
 
         public string PastaDosArquivos
         {
@@ -35,14 +35,10 @@ namespace WindowsFormsExercicios
         string caminhoPasta = "";
         string caminhoArquivo = "";
 
-        private void formEX1_Load(object sender, EventArgs e)
+        private void CarregarNotas()
         {
 
-            timer1.Interval = timer;
-            timer1.Enabled = true;
-
-            caminhoPasta = PastaDosArquivos;
-
+            cbxArquivos.Items.Clear();
 
             DirectoryInfo dir = new DirectoryInfo(caminhoPasta);
             FileInfo[] arquivos = dir.GetFiles("*.*");
@@ -53,10 +49,23 @@ namespace WindowsFormsExercicios
 
         }
 
+        private void formEX1_Load(object sender, EventArgs e)
+        {
+
+            timer1.Interval = timer;
+            timer1.Enabled = true;
+
+            caminhoPasta = PastaDosArquivos;
+
+
+            CarregarNotas();
+
+        }
+
         private void btnSalvarNota_Click(object sender, EventArgs e)
         {
 
-            string nomeDoArquivo = txbNomeArquivo.Text;
+            string nomeDoArquivo = txbNomeArquivo.Text + ".txt";
             caminhoArquivo = caminhoPasta + nomeDoArquivo;
 
             if (!File.Exists(caminhoArquivo))
@@ -78,22 +87,14 @@ namespace WindowsFormsExercicios
                 lblAlert.Text = "*Arquivo já existe";
             }
 
+            CarregarNotas();
 
         }
 
         private void btnRecarregar_Click(object sender, EventArgs e)
         {
 
-            lblAlert.Text = "";
-
-            cbxArquivos.Items.Clear();
-
-            DirectoryInfo dir = new DirectoryInfo(caminhoPasta);
-            FileInfo[] arquivos = dir.GetFiles("*.*");
-            foreach (FileInfo fi in arquivos)
-            {
-                cbxArquivos.Items.Add(fi.Name);
-            }
+            CarregarNotas();
 
         }
 
@@ -106,7 +107,7 @@ namespace WindowsFormsExercicios
             using (StreamReader sr = new StreamReader(caminhoArquivo)) 
             {
 
-                lblConteudoNotas.Text = sr.ReadToEnd();
+                txbConteudoNota.Text = sr.ReadToEnd();
 
             }
 
@@ -115,15 +116,9 @@ namespace WindowsFormsExercicios
         private void timer1_Tick(object sender, EventArgs e)
         {
 
+            lblAlert.Text = "";
 
-            cbxArquivos.Items.Clear();
-
-            DirectoryInfo dir = new DirectoryInfo(caminhoPasta);
-            FileInfo[] arquivos = dir.GetFiles("*.*");
-            foreach (FileInfo fi in arquivos)
-            {
-                cbxArquivos.Items.Add(fi.Name);
-            }
+            CarregarNotas();
 
 
         }

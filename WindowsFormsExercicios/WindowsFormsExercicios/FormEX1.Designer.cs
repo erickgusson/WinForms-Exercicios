@@ -37,9 +37,11 @@
             this.lblAlert = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cbxArquivos = new System.Windows.Forms.ComboBox();
-            this.lblConteudoNotas = new System.Windows.Forms.Label();
             this.btnRecarregar = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.txbConteudoNota = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,7 +98,7 @@
             this.lblAlert.AutoSize = true;
             this.lblAlert.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAlert.ForeColor = System.Drawing.Color.Tomato;
-            this.lblAlert.Location = new System.Drawing.Point(10, 153);
+            this.lblAlert.Location = new System.Drawing.Point(109, 299);
             this.lblAlert.Name = "lblAlert";
             this.lblAlert.Size = new System.Drawing.Size(0, 17);
             this.lblAlert.TabIndex = 5;
@@ -121,16 +123,6 @@
             this.cbxArquivos.TabIndex = 7;
             this.cbxArquivos.SelectedIndexChanged += new System.EventHandler(this.cbxArquivos_SelectedIndexChanged);
             // 
-            // lblConteudoNotas
-            // 
-            this.lblConteudoNotas.AutoSize = true;
-            this.lblConteudoNotas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConteudoNotas.Location = new System.Drawing.Point(305, 80);
-            this.lblConteudoNotas.MaximumSize = new System.Drawing.Size(295, 0);
-            this.lblConteudoNotas.Name = "lblConteudoNotas";
-            this.lblConteudoNotas.Size = new System.Drawing.Size(0, 17);
-            this.lblConteudoNotas.TabIndex = 8;
-            // 
             // btnRecarregar
             // 
             this.btnRecarregar.FlatAppearance.BorderSize = 0;
@@ -148,14 +140,45 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // txbConteudoNota
+            // 
+            this.txbConteudoNota.Location = new System.Drawing.Point(308, 99);
+            this.txbConteudoNota.Multiline = true;
+            this.txbConteudoNota.Name = "txbConteudoNota";
+            this.txbConteudoNota.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txbConteudoNota.Size = new System.Drawing.Size(266, 188);
+            this.txbConteudoNota.TabIndex = 10;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(482, 292);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 30);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Excluir nota";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(384, 293);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 30);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Atualizar nota";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // formEX1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(605, 420);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txbConteudoNota);
             this.Controls.Add(this.btnRecarregar);
-            this.Controls.Add(this.lblConteudoNotas);
             this.Controls.Add(this.cbxArquivos);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblAlert);
@@ -183,8 +206,10 @@
         private System.Windows.Forms.Label lblAlert;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbxArquivos;
-        private System.Windows.Forms.Label lblConteudoNotas;
         private System.Windows.Forms.Button btnRecarregar;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox txbConteudoNota;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
