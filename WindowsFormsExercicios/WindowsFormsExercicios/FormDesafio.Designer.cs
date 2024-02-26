@@ -33,6 +33,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txbTexto = new System.Windows.Forms.TextBox();
             this.btnDownload = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblContador = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxQR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,6 +62,7 @@
             // 
             this.txbTexto.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbTexto.Location = new System.Drawing.Point(10, 55);
+            this.txbTexto.MaxLength = 1273;
             this.txbTexto.Name = "txbTexto";
             this.txbTexto.Size = new System.Drawing.Size(585, 25);
             this.txbTexto.TabIndex = 2;
@@ -77,12 +81,44 @@
             this.btnDownload.UseVisualStyleBackColor = false;
             this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(121, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Número de caracteres:";
+            // 
+            // lblContador
+            // 
+            this.lblContador.AutoSize = true;
+            this.lblContador.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContador.Location = new System.Drawing.Point(124, 83);
+            this.lblContador.Name = "lblContador";
+            this.lblContador.Size = new System.Drawing.Size(0, 13);
+            this.lblContador.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(88, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Limite: 1273";
+            // 
             // FormDesafio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(605, 420);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblContador);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.txbTexto);
             this.Controls.Add(this.label1);
@@ -102,5 +138,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbTexto;
         private System.Windows.Forms.Button btnDownload;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblContador;
+        private System.Windows.Forms.Label label3;
     }
 }

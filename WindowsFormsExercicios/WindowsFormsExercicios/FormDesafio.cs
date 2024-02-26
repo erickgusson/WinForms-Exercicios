@@ -20,6 +20,8 @@ namespace WindowsFormsExercicios
         private void txbTexto_TextChanged(object sender, EventArgs e)
         {
 
+            lblContador.Text = txbTexto.TextLength.ToString();
+
             QRCoder.QRCodeGenerator geradorQR = new QRCoder.QRCodeGenerator();
             var texto = geradorQR.CreateQrCode(txbTexto.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
             var codigo = new QRCoder.QRCode(texto);
@@ -42,15 +44,15 @@ namespace WindowsFormsExercicios
 
                 if (selecionarOndeBaixar.ShowDialog() == DialogResult.OK)
                 {
-            
+
                     string filePath = selecionarOndeBaixar.FileName;
 
                     try
                     {
-                      
+
                         salvarImagem.Save(filePath, System.Drawing.Imaging.ImageFormat.Png);
                         MessageBox.Show("Imagem salva com sucesso!");
-                    
+
                     }
                     catch (Exception erro)
                     {
@@ -73,7 +75,7 @@ namespace WindowsFormsExercicios
                 {
 
                     imagem.DrawImage(pictureBox.Image, 0, 0, pictureBox.Width, pictureBox.Height);
-                
+
                 }
 
                 return salvarImagem;
@@ -83,6 +85,7 @@ namespace WindowsFormsExercicios
             return null;
 
         }
+
 
     }
 }
