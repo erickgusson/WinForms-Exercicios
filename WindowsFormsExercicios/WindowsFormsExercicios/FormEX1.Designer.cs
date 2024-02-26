@@ -40,8 +40,8 @@
             this.btnRecarregar = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.txbConteudoNota = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -119,7 +119,7 @@
             this.cbxArquivos.FormattingEnabled = true;
             this.cbxArquivos.Location = new System.Drawing.Point(305, 45);
             this.cbxArquivos.Name = "cbxArquivos";
-            this.cbxArquivos.Size = new System.Drawing.Size(121, 25);
+            this.cbxArquivos.Size = new System.Drawing.Size(233, 25);
             this.cbxArquivos.TabIndex = 7;
             this.cbxArquivos.SelectedIndexChanged += new System.EventHandler(this.cbxArquivos_SelectedIndexChanged);
             // 
@@ -128,7 +128,7 @@
             this.btnRecarregar.FlatAppearance.BorderSize = 0;
             this.btnRecarregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRecarregar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecarregar.Location = new System.Drawing.Point(432, 42);
+            this.btnRecarregar.Location = new System.Drawing.Point(544, 42);
             this.btnRecarregar.Name = "btnRecarregar";
             this.btnRecarregar.Size = new System.Drawing.Size(30, 28);
             this.btnRecarregar.TabIndex = 9;
@@ -149,25 +149,27 @@
             this.txbConteudoNota.Size = new System.Drawing.Size(266, 188);
             this.txbConteudoNota.TabIndex = 10;
             // 
-            // button1
+            // btnExcluir
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(482, 292);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 30);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Excluir nota";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnExcluir.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.Location = new System.Drawing.Point(482, 292);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(92, 30);
+            this.btnExcluir.TabIndex = 11;
+            this.btnExcluir.Text = "Excluir nota";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // button2
+            // btnAtualizar
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(384, 293);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 30);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Atualizar nota";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtualizar.Location = new System.Drawing.Point(384, 293);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(92, 30);
+            this.btnAtualizar.TabIndex = 12;
+            this.btnAtualizar.Text = "Atualizar nota";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // formEX1
             // 
@@ -175,8 +177,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(605, 420);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.txbConteudoNota);
             this.Controls.Add(this.btnRecarregar);
             this.Controls.Add(this.cbxArquivos);
@@ -209,7 +211,7 @@
         private System.Windows.Forms.Button btnRecarregar;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox txbConteudoNota;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnAtualizar;
     }
 }

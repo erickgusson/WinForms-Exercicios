@@ -71,7 +71,7 @@ namespace WindowsFormsExercicios
             if (!File.Exists(caminhoArquivo))
             {
 
-                using (var sw = File.CreateText(caminhoArquivo))
+                using (StreamWriter sw = File.CreateText(caminhoArquivo))
                 {
 
                     sw.WriteLine(txbConteudo.Text);
@@ -79,6 +79,8 @@ namespace WindowsFormsExercicios
                 }
 
                 lblAlert.Text = "";
+
+                MessageBox.Show("Nota criada com sucesso!");
 
             }
 
@@ -119,6 +121,49 @@ namespace WindowsFormsExercicios
             lblAlert.Text = "";
 
             CarregarNotas();
+
+
+        }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+
+            string arquivoAtualizar = cbxArquivos.Text;
+            caminhoArquivo = caminhoPasta + arquivoAtualizar;
+
+            if (File.Exists(caminhoArquivo))
+            {
+
+                using (StreamWriter sw = File.CreateText(caminhoArquivo))
+                {
+
+                    sw.WriteLine(txbConteudoNota.Text);
+
+                }
+
+                MessageBox.Show("Nota atualiza com sucesso!");
+
+            }
+
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+            string arquivoAtualizar = cbxArquivos.Text;
+            string caminhoArquivo = caminhoPasta + arquivoAtualizar;
+
+            if (File.Exists(caminhoArquivo))
+            {
+
+                File.Delete(caminhoArquivo);
+
+                MessageBox.Show("Nota excluida com sucesso!");
+
+            }
+
+            CarregarNotas();
+            cbxArquivos.SelectedIndex = 0;
 
 
         }

@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formex4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|c:\\users\\renon\\source\\repos\\winforms-exercicios\\windowsformsexercicios\\windowsformsexercicios\\formex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formdesafio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formdesafio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\formdesafio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\formdesafio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\windowsformsexercicios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1467AE5B-AC19-41C9-9489-A014299ADE2F}|WindowsFormsExercicios\\WindowsFormsExercicios.csproj|solutionrelative:windowsformsexercicios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormEX1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX1.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormEX1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T20:11:53.554Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormEX1.cs",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX1.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX1.cs",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormEX1.cs",
+              "ViewState": "AQIAAEMAAACANjMzMzMlwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T20:11:52.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormEX3.cs",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX3.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX3.cs",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormEX3.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAArwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-26T20:11:53.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormEX4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX4.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX4.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX4.cs [Design]",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormEX4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T20:11:53.597Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormEX5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX5.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX5.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX5.cs [Design]",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormEX5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T20:11:53.6Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormEX5.cs",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX5.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX5.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX5.cs",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormEX5.cs",
+              "ViewState": "AQIAAIUAAACAZWZmZmYqwE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T20:11:53.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\Form1.cs",
+              "ToolTip": "C:\\Users\\erick.vgusson\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\erick.vgusson\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-26T20:11:53.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormEX3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormEX3.cs",
+              "ToolTip": "C:\\Users\\erick.vgusson\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX3.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\erick.vgusson\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormEX3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-26T20:11:53.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormDesafio.cs",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormDesafio.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormDesafio.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormDesafio.cs",
+              "RelativeToolTip": "WindowsFormsExercicios\\FormDesafio.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-26T20:11:53.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormDesafio.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormDesafio.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\FormDesafio.cs",
+              "ToolTip": "C:\\Users\\erick.vgusson\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormDesafio.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\erick.vgusson\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\FormDesafio.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-26T20:11:53.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsExercicios\\Form1.cs",
+              "ToolTip": "C:\\Users\\Renon\\source\\repos\\WinForms-Exercicios\\WindowsFormsExercicios\\WindowsFormsExercicios\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsExercicios\\Form1.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-26T20:11:53.616Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
