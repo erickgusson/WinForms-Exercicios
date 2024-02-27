@@ -114,26 +114,33 @@ namespace WindowsFormsExercicios
 
         private void lbxContatos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string texto = LerArquivo(caminhoArquivo);
-
-            int selecionado = lbxContatos.SelectedIndex;
-            int contador = 0;
-
-            Array lista = texto.Split('\n');
-
-            foreach (string pessoa in lista)
+            try
             {
+                string texto = LerArquivo(caminhoArquivo);
 
-                string[] dados = pessoa.Split('|');
+                int selecionado = lbxContatos.SelectedIndex;
+                int contador = 0;
 
-                if (contador == selecionado)
+                Array lista = texto.Split('\n');
+
+                foreach (string pessoa in lista)
                 {
-                    lblNome.Text = dados[0];
-                    lblTipo.Text = dados[1];
-                    lblNumero.Text = dados[2];
-                }
 
-                contador++;
+                    string[] dados = pessoa.Split('|');
+
+                    if (contador == selecionado)
+                    {
+                        lblNome.Text = dados[0];
+                        lblTipo.Text = dados[1];
+                        lblNumero.Text = dados[2];
+                    }
+
+                    contador++;
+
+                }
+            }
+            catch (Exception ex)
+            {
 
             }
         }
