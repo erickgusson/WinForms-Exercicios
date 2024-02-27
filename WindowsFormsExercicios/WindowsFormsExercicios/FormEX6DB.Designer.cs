@@ -37,7 +37,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txbDesc = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAtualizar = new System.Windows.Forms.Button();
             this.dgvTarefas = new System.Windows.Forms.DataGridView();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTarefas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,11 +116,22 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.btnAtualizar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(145, 420);
             this.panel1.TabIndex = 22;
+            // 
+            // btnAtualizar
+            // 
+            this.btnAtualizar.Location = new System.Drawing.Point(10, 373);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(125, 23);
+            this.btnAtualizar.TabIndex = 24;
+            this.btnAtualizar.Text = "Atualizar tarefa";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // dgvTarefas
             // 
@@ -154,6 +167,7 @@
             this.Name = "FormEX6DB";
             this.Text = "FormEX6DB";
             this.Load += new System.EventHandler(this.FormEX6DB_Load);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTarefas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -172,5 +186,6 @@
         private System.Windows.Forms.TextBox txbDesc;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dgvTarefas;
+        private System.Windows.Forms.Button btnAtualizar;
     }
 }

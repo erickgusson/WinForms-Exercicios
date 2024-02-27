@@ -49,7 +49,7 @@ namespace WindowsFormsExercicios
             dgvTarefas.Columns["Ações"].Width = 50;
 
         }
-        
+
         private void LimparCampos()
         {
 
@@ -100,14 +100,14 @@ namespace WindowsFormsExercicios
             }
 
         }
-        
+
         private void btnLimpar_Click(object sender, EventArgs e)
         {
 
             LimparCampos();
 
         }
-       
+
         private void btnAdicionarTarefa_Click(object sender, EventArgs e)
         {
 
@@ -122,7 +122,7 @@ namespace WindowsFormsExercicios
                 using (MySqlConnection conexao = new MySqlConnection(conexaoString))
                 {
 
-                    string scriptSQL = $"INSERT INTO tb_erick_gerenciador (tarefa, descricacao, vencimento) VALUES ('{tarefa}','{desc}','{venc}')";
+                    string scriptSQL = $"INSERT INTO tb_erick_gerenciador (tarefa, descricao, vencimento) VALUES ('{tarefa}','{desc}','{venc}')";
 
                     using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
                     {
@@ -134,7 +134,7 @@ namespace WindowsFormsExercicios
                         if (linhasAfetadas > 0)
                         {
 
-                            MessageBox.Show("Palavra cadastrar com suesso");
+                            MessageBox.Show("Tarefa cadastrar com suesso");
 
                         }
 
@@ -157,7 +157,7 @@ namespace WindowsFormsExercicios
         private void dgvTarefas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            if (e.ColumnIndex == dgvTarefas.Columns["Ações"].Index && e.RowIndex >= 0) 
+            if (e.ColumnIndex == dgvTarefas.Columns["Ações"].Index && e.RowIndex >= 0)
             {
 
                 DialogResult confirmacao = MessageBox.Show("Tem certeza que deseja deletar esta tarefa?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -167,7 +167,7 @@ namespace WindowsFormsExercicios
 
                     string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
 
-                    
+
                     string idRemovido = dgvTarefas.Rows[e.RowIndex].Cells[0].Value.ToString();
 
                     try
@@ -188,7 +188,7 @@ namespace WindowsFormsExercicios
                                 if (linhasAfetadas > 0)
                                 {
 
-                                    MessageBox.Show("Palavra removida com suesso");
+                                    MessageBox.Show("Tarefa removida com suesso");
 
                                 }
 
@@ -203,7 +203,9 @@ namespace WindowsFormsExercicios
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Erro ao cadastrar informação: " + ex.Message);
+
+                        MessageBox.Show("Erro ao Deletar informação: " + ex.Message);
+
                     }
 
                 }
@@ -211,5 +213,78 @@ namespace WindowsFormsExercicios
             }
 
         }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+
+
+
+            DialogResult confirmacao = MessageBox.Show("Tem certeza que deseja Atualizar esta tarefa?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (confirmacao == DialogResult.Yes)
+            {
+
+                string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+
+                for (int i = 0; i < dgvTarefas.Rows.Count; i++)
+                {
+
+                    string idOriginal = dgvTarefas.Rows[i].Cells[0].Value.ToString();
+
+                    string novaTarefa = dgvTarefas.Rows[i].Cells[1].Value.ToString();
+                    string novaDesc = dgvTarefas.Rows[i].Cells[2].Value.ToString();
+                    string novoVencimento = dgvTarefas.Rows[i].Cells[3].Value.ToString();
+
+                    //MessageBox.Show($"{idOriginal}\n{novaTarefa}\n{novaDesc}\n{novoVencimento} ");
+
+                    try
+                    {
+                        using (MySqlConnection conexao = new MySqlConnection(conexaoString))
+                        {
+
+                            string scriptSQL = $"UPDATE tb_erick_gerenciador SET Tarefa = ('{novaTarefa}') WHERE id = ({idOriginal});" +
+                                $"UPDATE tb_erick_gerenciador SET descricao = ('{novaDesc}') WHERE id = ({idOriginal});" +
+                                $"UPDATE tb_erick_gerenciador SET vencimento = ('{novoVencimento}') WHERE id = ({idOriginal}); ";
+
+                            using (MySqlCommand comando = new MySqlCommand(scriptSQL, conexao))
+                            {
+
+                                conexao.Open();
+
+
+                                int linhasAfetadas = comando.ExecuteNonQuery();
+
+                                if (linhasAfetadas > 0)
+                                {
+
+                                    MessageBox.Show("Tarefa alterada com suesso");
+
+                                }
+
+                            }
+
+                            conexao.Close();
+
+
+                        }
+
+                    }
+
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show("Erro ao Atualizar informação: " + ex.Message);
+
+                    }
+
+                }
+
+                CarregarDados();
+
+            }
+
+        }
+
     }
+
 }
