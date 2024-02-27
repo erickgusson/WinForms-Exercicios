@@ -30,6 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.painelMenu = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEX6 = new System.Windows.Forms.Button();
             this.btnEX7 = new System.Windows.Forms.Button();
             this.btnDesafio = new System.Windows.Forms.Button();
@@ -42,30 +50,27 @@
             this.lblFormNome = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.painelConteudo = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.btnEX6DB = new System.Windows.Forms.Button();
             this.painelMenu.SuspendLayout();
-            this.painelCabecalho.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.painelCabecalho.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // painelMenu
             // 
             this.painelMenu.BackColor = System.Drawing.Color.WhiteSmoke;
             this.painelMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.painelMenu.Controls.Add(this.pictureBox9);
+            this.painelMenu.Controls.Add(this.btnEX6DB);
             this.painelMenu.Controls.Add(this.pictureBox5);
             this.painelMenu.Controls.Add(this.pictureBox6);
             this.painelMenu.Controls.Add(this.pictureBox7);
@@ -88,6 +93,86 @@
             this.painelMenu.Size = new System.Drawing.Size(195, 420);
             this.painelMenu.TabIndex = 0;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox5.Location = new System.Drawing.Point(5, 293);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox6.Location = new System.Drawing.Point(5, 258);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox6.TabIndex = 14;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox7.Location = new System.Drawing.Point(5, 186);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox7.TabIndex = 13;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox8.Location = new System.Drawing.Point(5, 151);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox8.TabIndex = 12;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox4.Location = new System.Drawing.Point(5, 116);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox3.Location = new System.Drawing.Point(5, 81);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Location = new System.Drawing.Point(5, 46);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Location = new System.Drawing.Point(5, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnEX6
             // 
             this.btnEX6.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -98,7 +183,7 @@
             this.btnEX6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEX6.Location = new System.Drawing.Point(36, 186);
             this.btnEX6.Name = "btnEX6";
-            this.btnEX6.Size = new System.Drawing.Size(133, 30);
+            this.btnEX6.Size = new System.Drawing.Size(158, 30);
             this.btnEX6.TabIndex = 7;
             this.btnEX6.Text = "Gerenciador de Tarefas";
             this.btnEX6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -113,9 +198,9 @@
             this.btnEX7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEX7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnEX7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEX7.Location = new System.Drawing.Point(36, 221);
+            this.btnEX7.Location = new System.Drawing.Point(36, 258);
             this.btnEX7.Name = "btnEX7";
-            this.btnEX7.Size = new System.Drawing.Size(133, 30);
+            this.btnEX7.Size = new System.Drawing.Size(158, 30);
             this.btnEX7.TabIndex = 6;
             this.btnEX7.Text = "Quiz";
             this.btnEX7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -130,9 +215,9 @@
             this.btnDesafio.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesafio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
             this.btnDesafio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDesafio.Location = new System.Drawing.Point(36, 256);
+            this.btnDesafio.Location = new System.Drawing.Point(36, 293);
             this.btnDesafio.Name = "btnDesafio";
-            this.btnDesafio.Size = new System.Drawing.Size(133, 30);
+            this.btnDesafio.Size = new System.Drawing.Size(158, 30);
             this.btnDesafio.TabIndex = 5;
             this.btnDesafio.Text = "Gerador de QR";
             this.btnDesafio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -149,7 +234,7 @@
             this.btnEX5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEX5.Location = new System.Drawing.Point(36, 151);
             this.btnEX5.Name = "btnEX5";
-            this.btnEX5.Size = new System.Drawing.Size(133, 30);
+            this.btnEX5.Size = new System.Drawing.Size(158, 30);
             this.btnEX5.TabIndex = 4;
             this.btnEX5.Text = "Gerenciador de Notas";
             this.btnEX5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -166,7 +251,7 @@
             this.btnEX2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEX2.Location = new System.Drawing.Point(36, 46);
             this.btnEX2.Name = "btnEX2";
-            this.btnEX2.Size = new System.Drawing.Size(133, 30);
+            this.btnEX2.Size = new System.Drawing.Size(158, 30);
             this.btnEX2.TabIndex = 3;
             this.btnEX2.Text = "Previsão do Tempo";
             this.btnEX2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -183,7 +268,7 @@
             this.btnEX3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEX3.Location = new System.Drawing.Point(36, 81);
             this.btnEX3.Name = "btnEX3";
-            this.btnEX3.Size = new System.Drawing.Size(133, 30);
+            this.btnEX3.Size = new System.Drawing.Size(158, 30);
             this.btnEX3.TabIndex = 2;
             this.btnEX3.Text = "Agenda";
             this.btnEX3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,7 +285,7 @@
             this.btnEX4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEX4.Location = new System.Drawing.Point(36, 116);
             this.btnEX4.Name = "btnEX4";
-            this.btnEX4.Size = new System.Drawing.Size(133, 30);
+            this.btnEX4.Size = new System.Drawing.Size(158, 30);
             this.btnEX4.TabIndex = 1;
             this.btnEX4.Text = "Relógio Mundial";
             this.btnEX4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -218,7 +303,7 @@
             this.btnEX1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEX1.Location = new System.Drawing.Point(36, 11);
             this.btnEX1.Name = "btnEX1";
-            this.btnEX1.Size = new System.Drawing.Size(133, 30);
+            this.btnEX1.Size = new System.Drawing.Size(158, 30);
             this.btnEX1.TabIndex = 0;
             this.btnEX1.Text = "Bloco de notas";
             this.btnEX1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,85 +357,32 @@
             this.painelConteudo.Size = new System.Drawing.Size(605, 420);
             this.painelConteudo.TabIndex = 2;
             // 
-            // pictureBox1
+            // pictureBox9
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(5, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox9.Location = new System.Drawing.Point(5, 222);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox9.TabIndex = 17;
+            this.pictureBox9.TabStop = false;
             // 
-            // pictureBox2
+            // btnEX6DB
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(5, 46);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox3.Location = new System.Drawing.Point(5, 81);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox4.Location = new System.Drawing.Point(5, 116);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox5.Location = new System.Drawing.Point(5, 256);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox6.Location = new System.Drawing.Point(5, 221);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox6.TabIndex = 14;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox7.Location = new System.Drawing.Point(5, 186);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox7.TabIndex = 13;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox8.Location = new System.Drawing.Point(5, 151);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(25, 30);
-            this.pictureBox8.TabIndex = 12;
-            this.pictureBox8.TabStop = false;
+            this.btnEX6DB.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEX6DB.FlatAppearance.BorderSize = 0;
+            this.btnEX6DB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEX6DB.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEX6DB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.btnEX6DB.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX6DB.Location = new System.Drawing.Point(36, 222);
+            this.btnEX6DB.Name = "btnEX6DB";
+            this.btnEX6DB.Size = new System.Drawing.Size(158, 30);
+            this.btnEX6DB.TabIndex = 16;
+            this.btnEX6DB.Text = "Gerenciador de Notas (Banco)";
+            this.btnEX6DB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEX6DB.UseVisualStyleBackColor = false;
+            this.btnEX6DB.Click += new System.EventHandler(this.btnEX6DB_Click);
             // 
             // FormHome
             // 
@@ -365,16 +397,17 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formHome";
             this.painelMenu.ResumeLayout(false);
-            this.painelCabecalho.ResumeLayout(false);
-            this.painelCabecalho.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.painelCabecalho.ResumeLayout(false);
+            this.painelCabecalho.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -402,6 +435,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Button btnEX6DB;
     }
 }
 

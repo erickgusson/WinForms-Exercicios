@@ -14,13 +14,13 @@ namespace WindowsFormsExercicios
     public partial class FormEX6 : Form
     {
 
-        //private List<Tarefa> listaTarefas;
+        private List<Tarefa> listaTarefas;
 
         public FormEX6()
         {
 
             InitializeComponent();
-            //listaTarefas = new List<Tarefa>();
+            listaTarefas = new List<Tarefa>();
             ConfigurarDataGridView();
 
         }
@@ -28,11 +28,10 @@ namespace WindowsFormsExercicios
         private void ConfigurarDataGridView()
         {
 
-            dgvTarefas.ColumnCount = 4;
-            dgvTarefas.Columns[0].Name = "ID";
-            dgvTarefas.Columns[1].Name = "Tarefa";
-            dgvTarefas.Columns[2].Name = "Descrição";
-            dgvTarefas.Columns[3].Name = "Vencimento";
+            dgvTarefas.ColumnCount = 3;
+            dgvTarefas.Columns[0].Name = "Tarefa";
+            dgvTarefas.Columns[1].Name = "Descrição";
+            dgvTarefas.Columns[2].Name = "Vencimento";
 
             DataGridViewButtonColumn coluna = new DataGridViewButtonColumn();
             coluna.Name = "Ações";
@@ -40,7 +39,6 @@ namespace WindowsFormsExercicios
             coluna.UseColumnTextForButtonValue = true;
             dgvTarefas.Columns.Add(coluna);
 
-            dgvTarefas.Columns["ID"].Width = 15;
             dgvTarefas.Columns["Tarefa"].Width = 140;
             dgvTarefas.Columns["Descrição"].Width = 150;
             dgvTarefas.Columns["Vencimento"].Width = 100;
@@ -50,8 +48,8 @@ namespace WindowsFormsExercicios
 
         private void AdicionarTarefa(string titulo, string descricao, DateTime dataVencimento)
         {
-            //Tarefa tarefa = new Tarefa(titulo, descricao, dataVencimento);
-            //listaTarefas.Add(tarefa);
+            Tarefa tarefa = new Tarefa(titulo, descricao, dataVencimento);
+            listaTarefas.Add(tarefa);
 
             AtualizarDataGridView();
             LimparCampos();
@@ -63,12 +61,12 @@ namespace WindowsFormsExercicios
 
 
 
-            //foreach (Tarefa tarefa in listaTarefas)
-            //{
+            foreach (Tarefa tarefa in listaTarefas)
+            {
 
-            //    dgvTarefas.Rows.Add(tarefa.Titulo, tarefa.Descricao, tarefa.DataVencimento.ToString("dd/MM/yyyy"));
+                dgvTarefas.Rows.Add(tarefa.Titulo, tarefa.Descricao, tarefa.DataVencimento.ToString("dd/MM/yyyy"));
 
-            //}
+            }
         }
 
         private void dgvTarefas_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -81,7 +79,7 @@ namespace WindowsFormsExercicios
 
                 if (resultado == DialogResult.Yes)
                 {
-                    //listaTarefas.RemoveAt(e.RowIndex);
+                    listaTarefas.RemoveAt(e.RowIndex);
                     AtualizarDataGridView();
                 }
             }
@@ -123,17 +121,17 @@ namespace WindowsFormsExercicios
 
     }
 
-    //public class Tarefa
-    //{
-    //    public string Titulo { get; set; }
-    //    public string Descricao { get; set; }
-    //    public DateTime DataVencimento { get; set; }
+    public class Tarefa
+    {
+        public string Titulo { get; set; }
+        public string Descricao { get; set; }
+        public DateTime DataVencimento { get; set; }
 
-    //    public Tarefa(string titulo, string descricao, DateTime dataVencimento)
-    //    {
-    //        Titulo = titulo;
-    //        Descricao = descricao;
-    //        DataVencimento = dataVencimento;
-    //    }
-    //}
+        public Tarefa(string titulo, string descricao, DateTime dataVencimento)
+        {
+            Titulo = titulo;
+            Descricao = descricao;
+            DataVencimento = dataVencimento;
+        }
+    }
 }

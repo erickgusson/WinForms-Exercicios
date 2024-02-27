@@ -142,6 +142,7 @@
             // dgvTarefas
             // 
             this.dgvTarefas.BackgroundColor = System.Drawing.Color.White;
+            this.dgvTarefas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dgvTarefas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTarefas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvTarefas.Location = new System.Drawing.Point(145, 0);

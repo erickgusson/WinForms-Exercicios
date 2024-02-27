@@ -157,6 +157,12 @@
     <Compile Include="FormEX6.Designer.cs">
       <DependentUpon>FormEX6.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEX6DB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEX6DB.Designer.cs">
+      <DependentUpon>FormEX6DB.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEX7.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEX6.resx">
       <DependentUpon>FormEX6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEX6DB.resx">
+      <DependentUpon>FormEX6DB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEX7.resx">
       <DependentUpon>FormEX7.cs</DependentUpon>

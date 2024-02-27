@@ -30,7 +30,7 @@ namespace WindowsFormsExercicios
             this.painelConteudo.Tag = formSelecionado;
             formSelecionado.Show();
 
-            
+
 
         }
 
@@ -81,6 +81,15 @@ namespace WindowsFormsExercicios
 
         }
 
+        private void btnEX6DB_Click(object sender, EventArgs e)
+        {
+
+            loadForm(new FormEX6DB());
+
+            lblFormNome.Text = btnEX6DB.Text;
+
+        }
+
         private void btnEX7_Click(object sender, EventArgs e)
         {
 
@@ -98,11 +107,12 @@ namespace WindowsFormsExercicios
             lblFormNome.Text = btnDesafio.Text;
 
         }
-        
+
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
 
     }
 }
