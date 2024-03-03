@@ -48,6 +48,8 @@ namespace WindowsFormsExercicios
             dgvTarefas.Columns["Vencimento"].Width = 70;
             dgvTarefas.Columns["Ações"].Width = 50;
 
+            dgvTarefas.Columns["ID"].ReadOnly = true;
+
         }
 
         private void LimparCampos()
