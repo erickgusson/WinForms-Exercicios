@@ -23,7 +23,7 @@ namespace WindowsFormsExercicios
 
             ConfigurarDataGridView();
 
-            CarregarDados();
+            CarregarDadosDaTabela();
 
         }
 
@@ -60,7 +60,7 @@ namespace WindowsFormsExercicios
 
         }
 
-        private void CarregarDados()
+        private void CarregarDadosDaTabela()
         {
 
             dgvTarefas.Rows.Clear();
@@ -152,7 +152,7 @@ namespace WindowsFormsExercicios
                 MessageBox.Show("Erro ao cadastrar informação: " + ex.Message);
             }
 
-            CarregarDados();
+            CarregarDadosDaTabela();
 
         }
 
@@ -198,7 +198,7 @@ namespace WindowsFormsExercicios
 
                             conexao.Close();
 
-                            CarregarDados();
+                            CarregarDadosDaTabela();
 
                         }
 
@@ -281,7 +281,7 @@ namespace WindowsFormsExercicios
 
                 }
 
-                CarregarDados();
+                CarregarDadosDaTabela();
 
             }
 
