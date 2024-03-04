@@ -136,7 +136,7 @@ namespace WindowsFormsExercicios
                         if (linhasAfetadas > 0)
                         {
 
-                            MessageBox.Show("Tarefa cadastrar com suesso");
+                            MessageBox.Show("Tarefa cadastrada com sucesso");
 
                         }
 
@@ -259,7 +259,7 @@ namespace WindowsFormsExercicios
                                 if (linhasAfetadas > 0)
                                 {
 
-                                    MessageBox.Show("Tarefa alterada com suesso");
+                                    MessageBox.Show("Tarefa alterada com sucesso");
 
                                 }
 
