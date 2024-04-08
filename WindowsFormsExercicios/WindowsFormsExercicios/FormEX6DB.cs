@@ -65,7 +65,7 @@ namespace WindowsFormsExercicios
 
             dgvTarefas.Rows.Clear();
 
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+            string conexaoString = "server=62.72.62.1;user=u687609827_erick;database=u687609827_erick;port=3306;password=9hY|NFrX";
 
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
             {
@@ -113,7 +113,7 @@ namespace WindowsFormsExercicios
         private void btnAdicionarTarefa_Click(object sender, EventArgs e)
         {
 
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+            string conexaoString = "server=62.72.62.1;user=u687609827_erick;database=u687609827_erick;port=3306;password=9hY|NFrX";
 
             string tarefa = txbTarefa.Text;
             string desc = txbDesc.Text;
@@ -167,7 +167,7 @@ namespace WindowsFormsExercicios
                 if (confirmacao == DialogResult.Yes)
                 {
 
-                    string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+                    string conexaoString = "server=62.72.62.1;user=u687609827_erick;database=u687609827_erick;port=3306;password=9hY|NFrX";
 
 
                     string idRemovido = dgvTarefas.Rows[e.RowIndex].Cells[0].Value.ToString();
@@ -226,7 +226,7 @@ namespace WindowsFormsExercicios
             if (confirmacao == DialogResult.Yes)
             {
 
-                string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+                string conexaoString = "server=62.72.62.1;user=u687609827_erick;database=u687609827_erick;port=3306;password=9hY|NFrX";
 
                 for (int i = 0; i < dgvTarefas.Rows.Count; i++)
                 {
